@@ -1,4 +1,3 @@
-````markdown
 # SRGAN Implementation in PyTorch
 
 This project contains a PyTorch implementation of **SRGAN (Super-Resolution Generative Adversarial Network)** based on the paper:
@@ -14,7 +13,7 @@ The objective of SRGAN is to reconstruct high-resolution (HR) images from low-re
 
 ```bash
 srgan.ipynb
-````
+```
 
 The notebook includes:
 
@@ -78,54 +77,6 @@ The discriminator distinguishes between:
 
 A probability score indicating whether the image is real or generated.
 
----
-
-# Technologies Used
-
-* Python
-* PyTorch
-* NumPy
-* OpenCV
-* Matplotlib
-* PIL
-
----
-
-# Installation
-
-Clone the repository:
-
-```bash
-git clone <repository-url>
-cd <repository-folder>
-```
-
-Install dependencies:
-
-```bash
-pip install torch torchvision numpy matplotlib pillow opencv-python pandas
-```
-
----
-
-# Running the Notebook
-
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```bash
-srgan.ipynb
-```
-
-Run all cells sequentially.
-
----
-
 # Sample Tensor Test
 
 The notebook includes basic testing using random tensors:
@@ -140,19 +91,6 @@ This verifies:
 * Generator output shape
 * Discriminator compatibility
 * Successful forward propagation
-
----
-
-# Future Improvements
-
-Possible enhancements:
-
-* Add full training pipeline
-* Implement perceptual loss using VGG
-* Add dataset loaders
-* Save/load model checkpoints
-* Evaluate using PSNR and SSIM metrics
-* Add inference on custom images
 
 ---
 
